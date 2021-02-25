@@ -1,0 +1,22 @@
+body {
+  background-color: darkgray;
+  margin: 50px;
+}
+
+table {
+  font-size: 30px;
+}
+
+h1 {
+  text-align: center;
+}
+
+tr {
+  height: 100px;
+  width: 100px;
+}
+
+td {
+  height: 50px;
+  width: 50px;
+}
