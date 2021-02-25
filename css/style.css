@@ -2,10 +2,10 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: #3e3f40;
   margin: 50px;
+  align-items: center;
 }
 
 table {
-  font-size: 30px;
   border-collapse: collapse;
 }
 
@@ -14,13 +14,28 @@ h1 {
   color: white;
 }
 
+h3 {
+  font-size: 30px;
+  margin-top: -20px;
+}
+td div {
+  height: 40px;
+  margin-top: -10px;
+}
+span {
+  font-size: 8px;
+  margin-top: -20px;
+}
 td {
   height: 50px;
   width: 50px;
   border: 1px #f0f0f0 solid;
-  margin: none;
-  padding: none;
   text-align: center;
+  margin: none;
+}
+
+td span {
+  display: block;
 }
 
 td:hover {
@@ -31,6 +46,13 @@ td:hover {
   cursor: pointer;
 }
 
+td:empty {
+  border: none;
+}
+
+td:empty:hover {
+  background-color: transparent;
+}
 /* Remove Border */
 tr:nth-child(1) > td:nth-child(n + 1):nth-child(-n + 18),
 tr:nth-child(2) > td:nth-child(n + 2):nth-child(-n + 17),
