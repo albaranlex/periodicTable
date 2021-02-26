@@ -1,4 +1,4 @@
-![ScreenShot](./screenshots/screenshot.png)
+![ScreenShot](./screenshots/screenshot1.png)
 
 # periodicTable
 
