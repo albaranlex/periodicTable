@@ -1,4 +1,4 @@
-![Alt text](/relative/path/to/img.jpg?raw=true "Screenshot")
+![ScreenShot](./screenshots/screenshot.png)
 
 # periodicTable
 
